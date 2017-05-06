@@ -1,0 +1,37 @@
+.squirrel {
+    height: 400px;
+}
+
+.squirrel::after {
+    clear: both;
+}
+
+.tail {
+    float: left;
+    height: 400px;
+    width: 250px;
+}
+
+.tail-part-1{
+    background-color: #D77B32;
+    height: 250px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.tail-part-2{
+    background-color: #D77B32;
+    height: 150px;
+    width:125px;
+    margin-left: 125px;
+    border-bottom-left-radius: 50%;
+}
+
+.squirrel-body {
+    float: left;
+    width: 150px;
+    height: 200px;
+    margin-top:200px;
+    background-color: #FD9C3E;
+}
